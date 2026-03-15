@@ -285,7 +285,6 @@ section.active{
     animation-delay: -5s;
     
 }
-
 @keyframes rotate-border{
     100%{
         transform: rotate(360deg);
@@ -306,12 +305,12 @@ section.active{
 }
 
 .home-img  .img-box .img-item img{
-    position: absolute;
-    top: -10rem;
-    display: block;
-    width: 85%;
-    object-fit: cover;
-    mix-blend-mode:lighten;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    
 }
 
 .heading{
